@@ -110,7 +110,3 @@ ls -l /usr/local/bin/arctic-lock
 ```
 
 Output must look like: `-rwsr-xr-x 1 root root ....` If the `s` is missing, run the `chmod 4755` command again.
-
-## 📜 License
-
-MIT License. Feel free to fork and modify.
