@@ -1,0 +1,14 @@
+[package]
+name = "arctic-lock"
+version = "1.1.0"
+edition = "2021"
+
+[dependencies]
+# Added "randr" feature
+x11rb = { version = "0.13", features = ["allow-unsafe-code", "image", "randr"] }
+pam = "0.7.0"
+image = "0.24"
+rusttype = "0.9"
+chrono = "0.4"
+rand = "0.8"
+users = "0.11"
